@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+        <p class="contact">CONTACT</p>
+        <p class="contact_2">GET IN TOUCH</p>
+        <div class="left-contact">
+            <div>
+                <p class="glyphicon glyphicon-map-marker">
+                    <l>Turkmenistan, Ashgabat city
+                    </l>
+                </p>
+            </div>
+            <div>
+                <p class="glyphicon glyphicon-envelope">
+                    <l>webprogcoder@gmail.com</l>
+                </p>
+            </div>
+            <div>
+                <p class="glyphicon glyphicon-earphone">
+                    <l>+99361483120</l>
+                </p>
+            </div>
+        </div>
+        <div class="right-contact">
+            <div class="has-warning">
+                <form action="{% url 'contact' %}" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn-message">
+                        <b> SUBMIT</b>
+                    </button>
+                </form>
+            </div>
+        </div>
+{% endblock content %}

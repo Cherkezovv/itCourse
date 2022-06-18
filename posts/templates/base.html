@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>itCourse</title>
+    <link rel="stylesheet" href="{% static 'static_dev/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'static_dev/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'static_dev/css/repsonsive.css' %}">
+    <link rel="stylesheet" href="{% static 'static_dev/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'static_dev/fonts/fontawesome-webfont.svg' %}">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/logo_1.png' %}">
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div align="center" class="container">
+        <div class="navbar-header">
+            <button align="center" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{% url 'index' %}">
+                <img src="{% static 'img/logo_112.png' %}" width="37px" style="float: left; margin-top: -3.9%;">
+                <b class="brandc">&nbsp;itCourse</b>
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse nn">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{% url 'questions' %}">Courses</a></li>
+                <li><a href="{% url 'tasks' %}">Tasks</a></li>
+                <li><a href="{% url 'question' %}">Questions</a></li>
+                <li><a href="{% url 'news' %}">News</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="video_vid">
+    {% comment %} <video src="{% static 'img/video-bg.mp4' %}" autoplay="true" loop="true" muted="true"></video> {% endcomment %}
+</div>
+{% block content %}{% endblock content %}
+</div>
+<script src="{% static 'static_dev/js/jquery.js' %}"></script>
+<script src="{% static 'static_dev/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'static_dev/js/script.js' %}"></script>
+</body>
+</html>

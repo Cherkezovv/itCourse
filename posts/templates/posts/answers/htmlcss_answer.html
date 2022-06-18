@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="div-body">
+        <div id="div_q1" class="div-ans-left">
+            <strong1>{{ htmlcss_answer.text }}</strong1>
+            {% for answer_h in ans_h %}
+                <hr>
+                <div class="answer">
+                    <div align="center" class="date-answer">
+                        Time of installation
+                        <p >{{ answer_h.date_added|timesince }}</p>
+                    </div>
+                    <div class="text-quest">
+                        <pre class="date-answer">{{ answer_h.text|linebreaks }}</pre>
+                    </div>
+                    <div class="bot">
+                        <p >{{ answer_h.email }}</p>
+                        <p >{{ answer_h.name }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            <div class="form-group has-warning">
+                <form action="{% url 'htmlcss_answer' htmlcss_question_id %}" method="post" style="margin-top: 5%">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-primary navbar-left btn-answer">
+                        Add answer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

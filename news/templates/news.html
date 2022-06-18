@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="news">
+        <p class="brand">Last News</p>
+        {% for news in newss %}
+            <div class="news-text">
+                <p>{{ news.text }}</p>
+                <div class="navbar-right">{{ news.date_added|timesince }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

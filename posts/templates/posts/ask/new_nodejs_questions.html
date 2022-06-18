@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="div-body">
+        <div id="div_q1" class="div-ans-left">
+            <form action="{% url 'new_nodejs_questions' %}" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary navbar-left btn-answer" >
+                    Add question
+                </button>
+            </form>
+        </div>
+    </div>
+{% endblock content %}

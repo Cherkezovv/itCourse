@@ -1,0 +1,564 @@
+/*@media only screen and (min-width: 768px) and (max-width: 991px) {*/
+
+/*}*/
+
+
+@media only screen and (max-width: 980px) {
+    .has-warning .form-control {
+        font-size: 1cm;
+        padding: 7% 4%;
+        margin-bottom: 3%;
+    }
+
+    .video_vid {
+        width: 100%;
+        min-width: 560%;
+        min-height: 100%;
+        zoom: 2.9;
+    }
+
+    .video_vid:after {
+        background: linear-gradient(to bottom, #4473a3 0%, #5bd6ab 100%);
+    } 
+
+
+    .contact {
+        padding-top: 7%;
+        font-size: 1.3cm;
+    }
+
+    .contact_2 {
+        font-size: 1.5cm;
+    }
+
+    .left-contact {
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 5%;
+        height: auto;
+    }
+
+    .left-contact div {
+        margin-top: 2%;
+        width: 90%;
+        height: 19%;
+        opacity: 0.60;
+    }
+
+    .left-contact p {
+        padding: 6% 8%;
+        font-size: 1cm;
+    }
+
+    .right-contact {
+        width: 100%;
+        float: left;
+        padding: 5% 9% 0% 10%;
+        margin-top: 0%;
+    }
+
+    .btn-message {
+        font-size: 1cm;
+        height: 86px;
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .about-p {
+        font-size: 1.2cm;
+        padding-top: 2%;
+    }
+
+    .image {
+        width: 90%;
+        height: 37%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .about-text {
+        width: 90%;
+        height: 65%;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .pag {
+        margin-top: 2%;
+        font-size: 1.5cm;
+        text-align: center;
+    }
+
+    .pag1 {
+        font-size: 0.9cm;
+        margin-left: 2%;
+    }
+
+    .news {
+        padding: 6% 7%;
+        font-size: 0.8cm;
+    }
+
+    .brand {
+        color: white;
+        font-size: 1.4cm;
+    }
+
+    .news-text {
+        padding: 6%;
+        opacity: 0.75;
+        margin-bottom: 4%;
+    }
+
+    .div-course {
+        font-size: 250%;
+        padding-top: 70%;
+        width: 21%;
+        height: 100%;
+    }
+
+    .div-course-left {
+        padding: 0% 2% 0% 5%;
+        float: left;
+        padding-top: 6%;
+        width: 79%;
+        height: auto;
+    }
+
+    .about-img {
+        width: 95%;
+        margin-left: 11%;
+    }
+
+    .about-img:hover {
+        background: linear-gradient(to bottom, #003985 0%, #1a4c92 100%);
+    }
+
+    .immg {
+        width: 100%;
+        height: 500px;
+    }
+
+    .div-course-left b {
+        font-size: 1cm;
+        margin-left: 5%;
+    }
+
+    .div-course-left strong {
+        font-size: 1.5cm;
+        margin-left: 25%;
+    }
+
+    .div-course-left strong1 {
+        font-size: 1cm;
+        margin-left: 25%;
+    }
+
+    .div-quest {
+        font-size: 130%;
+        padding-top: 37%;
+        width: 15%;
+        height: 90%;
+    }
+
+    .div-quest-left {
+        padding: 0% 3% 0% 8%;
+        padding-top: 7%;
+        width: 88%;
+    }
+
+    .div-quest-left strong1 {
+        color: white;
+        margin-left: 2%;
+        font-size: 1cm;
+    }
+
+    .btn-primary {
+        font-size: 0.8cm;
+        padding: 2% 2% 7% 2%;
+    }
+
+    .count {
+        font-size: 0.7cm;
+        margin-left: 2%;
+    }
+
+    .count-ans {
+        font-size: 1.9em;
+        width: 17%;
+    }
+
+    .date {
+        padding: 8%;
+    }
+
+    .text-quest {
+        font-size: 1.9em;
+        width: 83%;
+    }
+
+    .bot {
+        font-size: 1.5em;
+        height: 83px;
+        padding: 1%;
+        margin-right: 0%
+    }
+
+    .div-ans-left {
+        padding-top: 10%;
+    }
+
+    .div-ans-left strong1 {
+        font-size: 1cm;
+    }
+
+    .date-answer {
+        font-size: 1.9em;
+        color: #ffc675;
+    }
+
+    .text-answer {
+        font-size: 0.7cm;
+    }
+
+    .btn-answer {
+        margin-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 979px){
+    .text {
+        font-size: 2.4em;
+    }
+
+    .div-course {
+        font-size: 130%;
+        padding-top: 45%;
+        width: 15%;
+    }
+
+    .div-course-left {
+        float: left;
+        padding-top: 6%;
+        width: 85%;
+        height: auto;
+    }
+
+    .div-course-left strong {
+        margin-left: 0;
+        font-size: 1cm;
+    }
+
+    .div-course-left strong1 {
+        margin-left: 0;
+        padding-top: 7%;
+        font-size: 2.2em;
+    }
+
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .about-img {
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .immg {
+        width: 100%;
+        height: 350px;
+    }
+
+    .div-course-left b {
+        font-size: 1.5em;
+        margin-left: 5%;
+    }
+
+
+    .div-quest {
+        font-size: 100%;
+        padding-top: 25%;
+        width: 15%;
+        height: 100%;
+    }
+
+    .div-quest-left {
+        padding-top: 10%;
+    }
+
+
+    .div-quest-left strong1 {
+        margin-left: 2%;
+        font-size: 150%;
+    }
+
+    .btn-primary {
+        font-size: 0.4cm;
+    }
+
+    .count {
+        font-size: 0.4cm;
+    }
+
+    .count-ans {
+        font-size: 1.2em;
+    }
+
+    .text-quest {
+        font-size: 1.2em;
+    }
+
+    .bot {
+        font-size: 0.97em;
+        width: auto;
+        height: 83px;
+        padding: 1%;
+        float: right;
+    }
+
+    .div-ans-left strong1 {
+        font-size: 147%;
+    }
+
+    .date-answer {
+        font-size: 1.2em;
+    }
+
+    .text-answer {
+        font-size: 1.17em;
+        margin-left: 2%;
+    }
+
+    .has-warning .form-control {
+        font-size: 1em;
+        padding: 3% 3%;
+    }
+
+    .news {
+        padding: 10% 12%;
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .brand {
+        font-size: 1.3em;
+    }
+
+    .about-p {
+        padding-top: 5%;
+        color: white;
+        font-size: 2.3em;
+    }
+
+    .image {
+        height: 50%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .pag {
+        margin-top: 0;
+        font-size: 0.77cm;
+    }
+
+    .pag1 {
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .contact {
+        padding-top: 10%;
+        font-size: 2.3em;
+    }
+
+    .contact_2 {
+        font-size: 1cm;
+    }
+
+    .left-contact p {
+        padding: 7% 7%;
+        font-size: 0.54cm;
+    }
+
+    .left-contact l {
+        margin-left: 4%;
+    }
+
+    .btn-message {
+        font-size: 0.47cm;
+        height: 50px;
+        margin-top: 1%;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+    .text {
+        font-size: 2.4em;
+    }
+
+    .div-course {
+        font-size: 130%;
+        padding-top: 45%;
+        width: 15%;
+    }
+
+    .div-course-left {
+        float: left;
+        padding-top: 6%;
+        width: 85%;
+        height: auto;
+    }
+
+    .div-course-left strong {
+        margin-left: 0;
+        font-size: 1cm;
+    }
+
+    .div-course-left strong1 {
+        margin-left: 0;
+        padding-top: 7%;
+        font-size: 2.2em;
+    }
+
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .about-img {
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .immg {
+        width: 100%;
+        height: 350px;
+    }
+
+    .div-course-left b {
+        font-size: 1.5em;
+        margin-left: 5%;
+    }
+
+
+    .div-quest {
+        font-size: 100%;
+        padding-top: 25%;
+        width: 15%;
+        height: 100%;
+    }
+
+    .div-quest-left {
+        padding-top: 10%;
+    }
+
+
+    .div-quest-left strong1 {
+        margin-left: 2%;
+        font-size: 150%;
+    }
+
+    .btn-primary {
+        font-size: 0.4cm;
+    }
+
+    .count {
+        font-size: 0.4cm;
+    }
+
+    .count-ans {
+        font-size: 1.2em;
+    }
+
+    .text-quest {
+        font-size: 1.2em;
+    }
+
+    .bot {
+        font-size: 0.97em;
+        width: auto;
+        height: 83px;
+        padding: 1%;
+        float: right;
+    }
+
+    .div-ans-left strong1 {
+        font-size: 147%;
+    }
+
+    .date-answer {
+        font-size: 1.2em;
+    }
+
+    .text-answer {
+        font-size: 1.17em;
+        margin-left: 2%;
+    }
+
+    .has-warning .form-control {
+        font-size: 1em;
+        padding: 3% 3%;
+    }
+
+    .news {
+        padding: 10% 12%;
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .brand {
+        font-size: 1.3em;
+    }
+
+    .about-p {
+        padding-top: 5%;
+        color: white;
+        font-size: 2.3em;
+    }
+
+    .image {
+        height: 50%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .pag {
+        margin-top: 0;
+        font-size: 0.77cm;
+    }
+
+    .pag1 {
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .contact {
+        padding-top: 10%;
+        font-size: 2.3em;
+    }
+
+    .contact_2 {
+        font-size: 1cm;
+    }
+
+    .left-contact p {
+        padding: 7% 7%;
+        font-size: 0.54cm;
+    }
+
+    .left-contact l {
+        margin-left: 4%;
+    }
+
+    .btn-message {
+        font-size: 0.47cm;
+        height: 50px;
+        margin-top: 1%;
+    }
+
+}

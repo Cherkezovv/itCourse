@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="div-body">
+        <div class="div-course" style="position: fixed;right: 0">
+            <b id="btn1"  onClick="basylan(this.id)" class="video fa fa-video-camera">
+                Videos
+            </b>
+            <b id="btn2" onClick="basylan(this.id)" class="codes fa fa-file-code-o">
+                Code
+            </b>
+        </div>
+        <!--    videos-->
+        <div id="div1" class="div-course-left" style="display: block;">
+            <strong1>Video Courses</strong1>
+            <strong>Are you ready?</strong><br>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img" style="">
+                            <img src="{% static 'img/11.png' %}" class="immg" alt="python">
+                            <b>Video number: 13</b>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/66.png' %}" class="immg" alt="python">
+                            <b>Video number: 10</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/44.png' %}" class="immg" alt="python">
+                            <b>Video number: 7</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/55.png' %}" class="immg" alt="python">
+                            <b>Video number:2</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/77.png' %}" class="immg" alt="python">
+                            <b>Video number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/33.png' %}" class="immg" alt="python">
+                            <b>Video number:</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    Codes-->
+        <div id="div2" class="div-course-left" style="display: none">
+            <strong1>Courses Code</strong1>
+            <strong>Are you ready?</strong><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/python_111.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/django_82.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/htmlll.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/javaa.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/bootstrap_12.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="{% static 'img/nodeee.jpg' %}" class="immg" alt="python">
+                            <b>Cod number:</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock content %}

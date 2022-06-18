@@ -1,0 +1,543 @@
+@media only screen and (min-width: 500px) {
+
+    html,
+    body {
+        font-family: Bookman Old Style;
+        width: 100%;
+        height: 100%;
+        /* background-color: #477068a4; */
+
+
+    }
+
+    .navbar {
+        padding: 0.5%;
+        font-size: 115%;
+        opacity: 0.9;
+
+    }
+
+    .navbar-brand {
+        font-size: 140%;
+    }
+
+    .container {
+        width: 87%;
+
+    }
+
+    .video_vid {
+        height: 100%;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        z-index: -1;
+    } 
+
+    .video_vid:after {
+        content: '';
+        opacity: 0,75;
+        background: rgba(14, 33, 53, 0.84);
+        background: linear-gradient(to bottom, #001020 0%, #5bd6ab 100%);
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } 
+
+    .video-text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .text {
+        font-family: Bookman Old Style;
+        font-size: 4.4em;
+    }
+
+    .text h:nth-child(1) {
+        color: white;
+    }
+
+    .text h:nth-child(2) {
+        color: gold;
+    }
+
+    .text h:nth-child(3) {
+        color: white;
+    }
+
+    .text h:nth-child(4) {
+        color: gold;
+    }
+
+    .text h:nth-child(5) {
+        color: white;
+    }
+
+    .div-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 8%;
+    }
+
+    .div-body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        font-size: 150%;
+        padding: 2% 7% 2% 7%;
+        float: left;
+        width: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        transition: 0.8s;
+        opacity: 0.55;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .footer:hover {
+        background-color: #ffc700;
+        color: black;
+        opacity: 0.55;
+        cursor: pointer;
+    }
+
+    .div-course {
+        font-size: 130%;
+        float: right;
+        padding-top: 25%;
+        width: 8%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video {
+        padding: 2%;
+        width: 100%;
+        height: 13%;
+        margin-top: 2%;
+        color: white;
+        background-color: #0E2135;
+        opacity: 0.75;
+        margin-bottom: 2%;
+    }
+
+    .video:hover {
+        color: black;
+        background-color: white;
+        opacity: unset;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
+    .img {
+        padding: 2%;
+        width: 100%;
+        height: 13%;
+        color: white;
+        background-color: #0E2135;
+        opacity: 0.75;
+        margin-bottom: 2%;
+    }
+
+    .img:hover {
+        color: black;
+        background-color: white;
+        opacity: unset;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
+    .codes {
+        padding: 2%;
+        width: 100%;
+        height: 13%;
+        color: white;
+        background-color: #0E2135;
+        opacity: 0.75;
+        margin-bottom: 2%;
+    }
+
+    .codes:hover {
+        color: black;
+        background-color: white;
+        opacity: unset;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
+    .div-course-left {
+        padding: 0% 2% 0% 5%;
+        float: left;
+        padding-top: 6%;
+        width: 92%;
+        height: auto;
+    }
+
+    .about-img {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 280px;
+        height: auto;
+        float: left;
+        outline-style: solid;
+        outline-color: gold;
+        outline-width: 1px;
+        padding: 2%;
+        margin: 1%;
+        margin-bottom: 7%;
+        opacity: 0.85;
+    }
+
+    .about-img:hover {
+        opacity: 0.75;
+        transition: 0.8s;
+        cursor: pointer;
+        background: rgba(14, 33, 53, 0.84);
+        background: linear-gradient(to bottom, #001020 0%, #5bd6ab 100%);
+    }
+
+    .div-course-left b {
+        color: white;
+        margin-left: 5%;
+    }
+
+    .div-course-left strong {
+        color: white;
+        font-size: 270%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div-course-left strong1 {
+        color: white;
+        font-size: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .quest {
+        padding: 2%;
+        width: 100%;
+        height: 13%;
+        color: white;
+        background-color: #0E2135;
+        opacity: 0.75;
+        margin-bottom: 2%;
+    }
+
+    .div-quest {
+        font-size: 130%;
+        float: right;
+        padding-top: 15%;
+        width: 12%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        text-transform: uppercase;
+    }
+
+    .div-quest-left {
+        padding: 0% 2% 0% 11%;
+        float: left;
+        padding-top: 6%;
+        width: 88%;
+        height: auto;
+    }
+
+    .div-quest-left b {
+        color: white;
+        margin-left: 5%;
+    }
+
+
+    .div-quest-left strong1 {
+        color: white;
+        margin-left: 2%;
+        font-size: 250%;
+    }
+
+    .div-ans-left {
+        padding: 0% 10% 0% 10%;
+        float: left;
+        padding-top: 6%;
+        width: 100%;
+        height: auto;
+    }
+
+    .div-ans-left strong1 {
+        color: white;
+        font-size: 180%;
+    }
+
+    .btn-message {
+        font-size: 0.47cm;
+        height: 50px;
+        width: 100%;
+        margin-top: 1%;
+        background-color: rgb(244, 244, 244);
+        border: none;
+        border-radius: 10px;
+    }
+
+    .btn-message:hover {
+        background: none;
+        border: 2px solid #e6e6e6;
+        color: #f9f2f4;
+    }
+
+    .contact {
+        text-align: center;
+        padding-top: 6%;
+        color: #f7f7f7;
+        font-size: 0.7cm;
+        margin-bottom: 1%;
+    }
+
+    .contact_2 {
+        text-align: center;
+        padding-top: 0%;
+        color: #f7f7f7;
+        font-size: 1cm;
+        margin-bottom: 1.5%;
+    }
+
+    .left-contact {
+        width: 50%;
+        height: 70vh;
+        float: left;
+    }
+
+    .left-contact div {
+        margin-top: 5%;
+        border-radius: 15px;
+        width: 80%;
+        margin-right: 4%;
+        height: 19%;
+        float: right;
+        opacity: 0.45;
+        background: rgba(240, 247, 239, 0.92);
+    }
+
+    .left-contact p {
+        color: black;
+        display: flex;
+        padding: 7% 7%;
+        font-size: 0.54cm;
+    }
+
+    .left-contact l {
+        margin-left: 4%;
+        font-family: Dialog;
+    }
+
+    .right-contact {
+        width: 50%;
+        float: left;
+        padding: 0.5% 8% 0% 2%;
+        margin-top: 2%;
+    }
+
+    .div-quest b {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .div-body button {
+        float: right;
+        height: 50px;
+        margin-top: 1%;
+    }
+
+    .count {
+        font-size: 0.5cm;
+        margin-top: 1%;
+        color: white;
+    }
+
+    .contain {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 3%;
+        color: white;
+    }
+
+    .count-ans {
+        font-size: 1.4em;
+        width: 17%;
+        height: 57px;
+        float: left;
+    }
+
+    .date {
+        padding: 13%;
+    }
+
+    .text-quest {
+        font-size: 1.4em;
+        width: 83%;
+        height: 57%;
+        float: left;
+    }
+
+    .bot {
+        font-size: 1.4em;
+        width: auto;
+        height: 83px;
+        padding: 1%;
+        float: right;
+        margin-right: 8%
+    }
+
+    .bot p {
+        padding: 1%;
+    }
+
+    .answer {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 1%;
+        color: white
+    }
+
+    .date-answer {
+        font-size: 1.4em;
+        width: 17%;
+        height: 57px;
+        float: left;
+    }
+
+    .date-answer p {
+        padding: 13%;
+    }
+
+    .text-answer {
+        padding: 2%;
+        border: none;
+    }
+
+    .btn-answer {
+        height: 50px;
+        margin-top: 1%;
+    }
+
+    .div-course b {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        padding-top: 6%;
+    }
+
+    .image {
+        width: 43%;
+        height: 60%;
+        margin-top: 5%;
+        margin-left: 6%;
+        float: left;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+        opacity: 0.75;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .about-p {
+        color: white;
+        font-size: 0.9cm;
+    }
+
+    .about-text {
+        width: 45%;
+        height: 65%;
+        margin-top: 5%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    .pag {
+        color: white;
+        margin-top: 2%;
+        font-size: 0.77cm;
+    }
+
+    .pag1 {
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .news {
+        width: 100%;
+        height: 100%;
+        padding: 6% 12%;
+        color: white;
+        font-size: 0.5cm;
+    }
+
+    .brand {
+        color: white;
+        font-size: 1cm;
+    }
+
+    .news-text {
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        background-color: black;
+        border-radius: 10px;
+        opacity: 0.75;
+        margin-bottom: 3%;
+    }
+
+    .task {
+        width: 100%;
+        height: 100%;
+        padding: 7% 12%;
+        color: #b8ffe7;
+    }
+
+    .immg {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .brandc{
+        font-size: 160%;
+    }
+
+    .nn{
+        font-size: 110%;
+    }
+}
